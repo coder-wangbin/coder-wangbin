@@ -18,14 +18,14 @@ jobs:
           START=2019
           CURRENT=$(date +%Y)
           YEARS=$((CURRENT - START))
-          echo "当前: ${YEARS}+ 年"
+          echo "年数: ${YEARS}+"
           
-          # 1. 更新注释标记
+          # 更新文本
           sed -i "s|<!-- YEARS -->[0-9]*+<!-- /YEARS -->|<!-- YEARS -->${YEARS}+<!-- /YEARS -->|g" README.md
-          sed -i "s|<!--SVG_YEARS-->[0-9]*%2B<!--/SVG_YEARS-->|<!--SVG_YEARS-->${YEARS}%2B<!--/SVG_YEARS-->|g" README.md
-          
-          # 2. 更新 shields.io 徽章
+          # 更新 shields.io 徽章
           sed -i "s|Experience-[0-9]*%2B_Years|Experience-${YEARS}%2B_Years|g" README.md
+          # 更新 SVG 打字中的 __YEARS__ 标记
+          sed -i "s|__YEARS__|${YEARS}%2B|g" README.md
           
           git diff --exit-code README.md && echo "无变化" && exit 0
           
@@ -34,5 +34,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "📅 自动更新年数：$(date +%Y)年 → ${YEARS}+ 年"
+          git commit -m "📅 $(date +%Y)年 → ${YEARS}+ 年"
           git push
