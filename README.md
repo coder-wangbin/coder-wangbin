@@ -103,6 +103,13 @@ Built and maintain a full DevOps toolchain for the team:
 
 ---
 
+
+## 📄 Documentation
+
+### 🔗 [AI-Driven Dev Workflow](https://github.com/coder-wangbin/ai-driven-dev-workflow)
+> Full-chain AI development workflow — from requirement analysis to auto-deploy and self-healing
+
+
 ## 📊 GitHub Activity
 
 <p align="center">
