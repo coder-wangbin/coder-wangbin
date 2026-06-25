@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&width=680&lines=Hi%2C+I%27m+coder-wangbin;Go+Backend+Developer+%C2%B7+6%2B+Years;AI-Driven+Full-Chain+Workflow+Builder;K8s+%2B+DevOps+Toolchain+Designer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&width=680&lines=Hi%2C+I%27m+coder-wangbin;Go+Backend+Developer+Since+2019;AI-Driven+Full-Chain+Workflow+Builder;K8s+%2B+DevOps+Toolchain+Designer" alt="Typing SVG" />
 </p>
 
 <p align="center"><i>"瓶颈不在模型，在模型外的工程系统。"</i></p>
@@ -14,7 +14,7 @@
 
 ## 👨‍💻 关于我
 
-Go 后端开发，6+ 年经验。专注把 AI 真正接入研发全流程——从需求分析到自动部署、从代码生成到故障自愈。
+Go 后端开发，2019 年至今（7+ 年）。专注把 AI 真正接入研发全流程——从需求分析到自动部署、从代码生成到故障自愈。
 
 花了半年时间设计并落地了一套 AI 驱动全链路工具链，把需求分析、方案设计、编码自验证、K8s 自动部署、日志诊断、Bug 自动修复串成了可执行、可回流的闭环。
 
