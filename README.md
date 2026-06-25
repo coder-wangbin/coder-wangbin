@@ -5,6 +5,7 @@
 <p align="center">
   <a href="mailto:coder.wangbin@gmail.com"><img src="https://img.shields.io/badge/Email-coder.wangbin%40gmail.com-blue?style=flat-square&logo=gmail" /></a>
   <a href="https://github.com/coder-wangbin"><img src="https://img.shields.io/badge/GitHub-coder--wangbin-black?style=flat-square&logo=github" /></a>
+  <a href="https://coder-wangbin.github.io"><img src="https://img.shields.io/badge/Portfolio-coder--wangbin.github.io-green?style=flat-square" /></a>
   <img src="https://komarev.com/ghpvc/?username=coder-wangbin&style=flat-square&color=blue" />
 </p>
 
@@ -64,7 +65,7 @@ Set Goal → Agent Implements → Self-Verify (build / test / LSP)
                             Pass       Reject → Redo from start
 ```
 
-AI 写完代码不是终点。**Oracle 审核是最后一道门禁**——审核不通过就打回重做，持续 loop 直到通过。这确保了 AI 的输出质量有人把关，而不是"生成即交付"。
+AI 写完代码不是终点。**Oracle 审核是最后一道门禁**——审核不通过就打回重做，持续 loop 直到通过。
 
 ---
 
@@ -90,7 +91,6 @@ AI 写完代码不是终点。**Oracle 审核是最后一道门禁**——审核
 - Uses `git update-index --skip-worktree` to protect local translations
 - Batch replace `description` fields in `SKILL.md` files
 - Symbolic link support for cross-directory skill discovery
-- MIT License
 
 ### 🎯 [codex-goal-parallel](https://github.com/coder-wangbin/codex-goal-parallel)
 > CodeX skill: automatic parallel task decomposition with sub-agent lifecycle management
@@ -101,7 +101,6 @@ Built and maintain a full DevOps toolchain for the team:
 - **K8s Operations MCP Server**: 11 tools — list_pods, get_logs, diagnose, events, restart_deployment, get_pipeline, get_job_logs, get_ingress, patch_ingress_tls, deployment_status, send_feishu_notification
 - **Database MCP Server**: Agent-driven database queries with branch-switch auto-sync via Git hooks
 - **Deploy CLI**: Kuboard SSO auth, Strategic Merge Patch, rolling updates, Feishu notifications
-- **CodeGraph Integration**: Semantic code search via MCP — reduced token usage and tool calls
 
 ---
 
