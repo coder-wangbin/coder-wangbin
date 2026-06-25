@@ -3,7 +3,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Experience-7%2B_Years-blue?style=flat-square" />
 </p>
 
 <p align="center"><i>"瓶颈不在模型，在模型外的工程系统。"</i></p>
