@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+%E7%8E%8B%E5%BD%AC+(coder-wangbin);Go+Backend+Developer+·+6%2B+Years;AI-Driven+Full-Chain+Workflow+Builder;K8s+%2B+DevOps+Toolchain+Designer" alt="Typing SVG" />
-</p>
+<h1 align="center">👋 王彬 · coder-wangbin</h1>
+<p align="center"><b>Go Backend Developer · AI-Driven Full-Chain Workflow Builder · K8s + DevOps Toolchain Designer</b></p>
 
 <p align="center">
   <a href="mailto:coder.wangbin@gmail.com"><img src="https://img.shields.io/badge/Email-coder.wangbin%40gmail.com-blue?style=flat-square&logo=gmail" /></a>
@@ -13,7 +12,7 @@
 
 ## 👨‍💻 About Me
 
-**Go 后端开发工程师 · 6+ 年经验 · 当前就职于 Langboat（浪舟）**
+**Go 后端开发工程师 · 6+ 年经验**
 
 我花了半年时间把 AI 从"只会写代码"变成了"能跟着研发链路从头走到尾"——设计并落地了一套 AI 驱动的全链路研发工具链，覆盖需求分析、方案设计、编码自验证、K8s 自动部署、日志诊断、Bug 自修复。
 
