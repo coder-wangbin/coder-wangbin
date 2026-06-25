@@ -63,6 +63,7 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 | [📄 AI 全链路工作流文档](https://github.com/coder-wangbin/ai-driven-dev-workflow) | 完整工程文档：从需求到交付的闭环实践，含 Mermaid 图 |
 | [🌍 Skill 描述本地化](https://github.com/coder-wangbin/opencode-skill-localizer) | git skip-worktree 保护翻译不改被覆盖 |
 | [🎯 并行任务分解](https://github.com/coder-wangbin/codex-goal-parallel) | CodeX skill：自动并行拆解任务 |
+| [📚 知识库](https://github.com/coder-wangbin/knowledge-base) | OpenCode · CodeGraph · CCX · lb DevOps · Go工具 · RAG |
 
 ---
 
