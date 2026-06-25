@@ -1,9 +1,8 @@
 <p align="center">
-
-<p align="center"><i>"瓶颈不在模型，在模型外的工程系统。"</i></p>
-
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&width=680&lines=Hi%2C+I%27m+coder-wangbin;Go+Backend+Developer+%C2%B7+6%2B+Years;AI-Driven+Full-Chain+Workflow+Builder;K8s+%2B+DevOps+Toolchain+Designer" alt="Typing SVG" />
 </p>
+
+<p align="center"><i>"瓶颈不在模型，在模型外的工程系统。"</i></p>
 
 <p align="center">
   <a href="mailto:coder.wangbin@gmail.com"><img src="https://img.shields.io/badge/Email-coder.wangbin%40gmail.com-blue?style=flat-square&logo=gmail" /></a>
