@@ -10,7 +10,6 @@
 <p align="center">
   <a href="mailto:coder.wangbin@gmail.com"><img src="https://img.shields.io/badge/Email-coder.wangbin%40gmail.com-blue?style=flat-square&logo=gmail" /></a>
   <a href="https://coder-wangbin.github.io"><img src="https://img.shields.io/badge/Portfolio-coder--wangbin.github.io-green?style=flat-square" /></a>
-  <img src="https://komarev.com/ghpvc/?username=coder-wangbin&style=flat-square&color=blue" />
 </p>
 
 ---
@@ -66,6 +65,7 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 | [📄 AI 全链路工作流文档](https://github.com/coder-wangbin/ai-driven-dev-workflow) | 完整工程文档：从需求到交付的闭环实践，含 Mermaid 图 |
 | [📚 知识库](https://github.com/coder-wangbin/knowledge-base) | OpenCode · CodeGraph · CCX · lb DevOps · Go工具 · RAG |
 | [🌍 Skill 描述本地化](https://github.com/coder-wangbin/opencode-skill-localizer) | git skip-worktree 保护翻译不改被覆盖 |
+| [🐝 codex-swarm](https://github.com/coder-wangbin/codex-swarm) | 三支柱并行智能体编排：第一性原理 × 对抗式审查 × 防作弊护栏 |
 | [🎯 并行任务分解](https://github.com/coder-wangbin/codex-goal-parallel) | CodeX skill：自动并行拆解任务 |
 
 ---
@@ -79,7 +79,7 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 | CI/CD | GitLab CI · 自研 CLI |
 | AI & MCP | OpenCode · Codex · CodeGraph · lark-cli |
 | 数据库 | MySQL · Redis · dbhub MCP |
-| 知识管理 | CodeGraph · AGENTS.md · CHANGELOG.md |
+| 知识管理 | CodeGraph · AGENTS.md · CHANGELOG.md | · codex-swarm
 
 ---
 
@@ -99,8 +99,6 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 ## 📊 动态
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=coder-wangbin&show_icons=true&hide_title=true&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-wangbin&layout=compact&hide_title=true&hide_border=true" height="150" />
 </p>
 
 <p align="center">
