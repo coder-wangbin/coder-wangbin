@@ -72,13 +72,13 @@ Go 后端开发，7+ 年。专注 **Agentic Engineering**——把 AI Agent 真�
 
 ## 🚀 项目
 
-| 项目 | 说明 |
-|------|------|
-| [🐝 codex-swarm](https://github.com/coder-wangbin/codex-swarm) | 三支柱并行智能体编排：第一性原理 × 对抗式审查 × 防作弊护栏 |
-| [📄 AI 全链路工作流](https://github.com/coder-wangbin/ai-driven-dev-workflow) | 完整工程文档：从需求到交付的闭环实践，含架构图 |
-| [📚 知识库](https://github.com/coder-wangbin/knowledge-base) | OpenCode · CodeGraph · CCX · lb DevOps · Go工具 · RAG |
-| [🌍 Skill 描述本地化](https://github.com/coder-wangbin/opencode-skill-localizer) | git skip-worktree 保护翻译不改被覆盖 |
-| [🎯 并行任务分解](https://github.com/coder-wangbin/codex-goal-parallel) | CodeX skill：自动并行拆解任务 |
+| 项目 | 说明 | 关键词 |
+|------|------|--------|
+| [🐝 codex-swarm](https://github.com/coder-wangbin/codex-swarm) | 三支柱并行智能体编排 | CodeX · Agent · Security |
+| [📄 AI 全链路工作流](https://github.com/coder-wangbin/ai-driven-dev-workflow) | 从需求到交付的闭环工程文档 | Docs · Mermaid · DevOps |
+| [📚 知识库](https://github.com/coder-wangbin/knowledge-base) | 6 大主题经验沉淀 | OpenCode · K8s · CCX |
+| [🌍 Skill 本地化](https://github.com/coder-wangbin/opencode-skill-localizer) | git skip-worktree 保护翻译 | Shell · Git · OpenCode |
+| [🎯 并行任务分解](https://github.com/coder-wangbin/codex-goal-parallel) | 自动拆解 + 子 Agent 管理 | CodeX · Agent |
 
 ---
 
