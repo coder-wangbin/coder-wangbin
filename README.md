@@ -2,9 +2,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&width=680&lines=Hi%2C+I%27m+coder-wangbin;Go+Backend+Developer+%C2%B7+7%2B+Years;AI-Driven+Full-Chain+Workflow+Builder;K8s+%2B+DevOps+Toolchain+Designer" alt="Typing SVG" />
 </p>
 
-<p align="center">
-</p>
-
 <p align="center"><i>"瓶颈不在模型，在模型外的工程系统。"</i></p>
 
 <p align="center">
@@ -16,45 +13,51 @@
 
 ## 👨‍💻 关于我
 
-Go 后端开发，7+ 年。专注把 AI 真正接入研发全流程——从需求分析到自动部署、从代码生成到故障自愈。
+Go 后端开发，7+ 年。专注 **Agentic Engineering**——把 AI Agent 真正接入研发全流程，从需求分析到自动部署、从代码生成到故障自愈。
 
-花了半年时间设计并落地了一套 AI 驱动全链路工具链，把需求分析、方案设计、编码自验证、K8s 自动部署、日志诊断、Bug 自动修复串成了可执行、可回流的闭环。
+花了半年时间设计并落地了一套 AI 驱动全链路工具链，串起了需求分析、方案设计、编码自验证、K8s 自动部署、日志诊断、Bug 自动修复的完整闭环。
 
 ---
 
 ## 🏗️ AI 全链路研发管线
 
-**1 需求分析** → **2 方案设计** → **3 编码开发** → **4 Oracle 审核** → **5 自动部署** → **6 健康检查** → **7 自愈 & 告警**
+**1 需求分析** → **2 方案设计** → **3 编码开发** → **4 Goal 审核** → **5 自动部署** → **6 健康检查** → **7 自愈 & 告警**
 
 | 环节 | 以前（人工） | 现在（AI 驱动） | 提效 |
 |------|-------------|----------------|------|
-| **需求分析** | 下载 PRD 逐字读，漏洞靠经验 | AI 自动读取、查漏补缺 | 半天→10-60min |
-| **方案设计** | 手写文档，复制粘贴，文档总滞后 | AI 生成方案并同步到文档 | 1-2天→对话中产出 |
+| **需求分析** | 下载 PRD 逐字读，漏洞靠经验 | Agent 自动读取、查漏补缺 | 半天→10-60min |
+| **方案设计** | 手写文档，复制粘贴，文档总滞后 | Agent 生成方案并同步到文档 | 1-2天→对话中产出 |
 | **数据库配置** | 切分支手动改 DSN，忘了就切错库 | Git hook 自动同步，热重载 | 手动→零操作 |
-| **编码开发** | 写→编译→部署→测试全靠手 | ulw-loop 编译→测试→审核循环 | 2-3天→自验证 |
+| **编码开发** | 写→编译→部署→测试全靠手 |  编译→测试→审核循环 | 2-3天→自验证 |
 | **部署上线** | 打开 Kuboard → 手动更新镜像 | push → CI → lb 自动部署 | 30min→全自动 |
-| **故障排查** | 复制 CI/K8s 日志贴给 AI 分析 | AI 直接读日志，自动诊断 | 1-2h→Agent 诊断 |
-| **Bug 修复** | 改代码 5 分钟，走流程 4 小时 | AI 监控 Bug 列表→自动修→部署 | 半天→自动闭环 |
+| **故障排查** | 复制 CI/K8s 日志贴给 AI 分析 | Agent 直接读日志，自动诊断 | 1-2h→Agent 诊断 |
+| **Bug 修复** | 改代码 5 分钟，走流程 4 小时 | Agent 监控 Bug 列表→自动修→部署 | 半天→自动闭环 |
 | **代码搜索** | grep + read 链，耗 token | CodeGraph 语义搜索 MCP | token↓ 调用↓ |
+
+### /goal 目标驱动开发
+
+
+
+oh-my-openagent v4.19 起， 取代了 ulw-loop，成为标准的 Agent 目标驱动模式。支持  /  /  模型工具，持久化目标状态，持续 loop 直到审核通过。
 
 ---
 
 ## 🔧 核心工具链
 
-### lb CLI + MCP Server — K8s 运维
-11 个 MCP 工具（list_pods / get_logs / diagnose / events / restart / pipeline / job_logs / ingress / tls / status / notify）让 AI 能直接操作 K8s 和 GitLab CI。Kuboard SSO 5 步认证 + Strategic Merge Patch 滚动更新 + 关联部署 + 通知。
+| 工具 | 核心能力 |
+|------|---------|
+| **lb CLI + MCP Server** | 11 个 MCP 工具让 Agent 直操作 K8s 和 GitLab CI。Kuboard SSO 5 步认证 + Strategic Merge Patch 滚动更新 + 关联部署 |
+| **dbhub MCP + Git Hook** | post-checkout hook 检测分支切换 → 读 conf.yml → DSN 自动转换 → 热重载 |
+| **CodeGraph MCP** | 代码知识图谱，10 个 MCP 工具（context / search / trace / callers / impact 等），20+ 语言，多分支增量同步 |
+| **CCX 多模型路由** | CodeX + CCX 接入 DeepSeek + DashScope。双通道（文本 + 视觉），视觉路由 |
+| **OpenCode + Codex** |  目标驱动 · Ghostty + yazi · 多轮上下文 · 插件生态 |
+| **codex-swarm** | 三支柱并行智能体编排：第一性原理 × 对抗式审查 × 防作弊护栏 |
 
-### dbhub MCP + Git Hook — 数据库自动切换
-post-checkout hook 检测分支切换 → 读 conf.yml → Go DSN 转 MySQL DSN → 写 dbhub.toml → config-watcher 热重载。多项目扩展。
+### MCP 协议 & Agentic Engineering
 
-### CodeGraph — 代码知识图谱
-10 个 MCP 工具：context / search / explore / trace / callers / callees / impact / node / files / status。支持 20+ 语言，多分支增量同步，Go 框架路由识别。
+MCP 2026-07-28 正式版：stateless core、MRTR 多轮请求、MCP Apps/Tasks 扩展。250M+ 周下载量。Agent 通过标准 MCP 接口连接外部系统——数据库、搜索引擎、云 API、内部工具。
 
-### CCX — 多模型路由
-CodeX + CCX 接入 DeepSeek + DashScope。双通道（文本推理 + 多模态视觉），视觉路由机制，3 个常见配置错误排坑。
-
-### OpenCode 环境
-ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生态（CodeGraph/dbhub/lb/lark-cli/fmt）· 配置自动更新。
+Vibe Coding 在 2026 年进化为 **Agentic Engineering**：同一套"描述意图 → Agent 构建"的本能，加上 Spec 先行、Review 把关、Test 验证的工程纪律。
 
 ---
 
@@ -62,10 +65,10 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 
 | 项目 | 说明 |
 |------|------|
-| [📄 AI 全链路工作流文档](https://github.com/coder-wangbin/ai-driven-dev-workflow) | 完整工程文档：从需求到交付的闭环实践，含 Mermaid 图 |
+| [🐝 codex-swarm](https://github.com/coder-wangbin/codex-swarm) | 三支柱并行智能体编排：第一性原理 × 对抗式审查 × 防作弊护栏 |
+| [📄 AI 全链路工作流](https://github.com/coder-wangbin/ai-driven-dev-workflow) | 完整工程文档：从需求到交付的闭环实践，含架构图 |
 | [📚 知识库](https://github.com/coder-wangbin/knowledge-base) | OpenCode · CodeGraph · CCX · lb DevOps · Go工具 · RAG |
 | [🌍 Skill 描述本地化](https://github.com/coder-wangbin/opencode-skill-localizer) | git skip-worktree 保护翻译不改被覆盖 |
-| [🐝 codex-swarm](https://github.com/coder-wangbin/codex-swarm) | 三支柱并行智能体编排：第一性原理 × 对抗式审查 × 防作弊护栏 |
 | [🎯 并行任务分解](https://github.com/coder-wangbin/codex-goal-parallel) | CodeX skill：自动并行拆解任务 |
 
 ---
@@ -77,9 +80,9 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 | 语言 | Go · Python · Shell |
 | 云原生 | Kubernetes · Docker · Kuboard |
 | CI/CD | GitLab CI · 自研 CLI |
-| AI & MCP | OpenCode · Codex · CodeGraph · lark-cli |
+| AI & MCP | OpenCode · Codex · CodeGraph · lark-cli · CCX |
+| Agent 编排 |  目标驱动 · codex-swarm 多智能体 |
 | 数据库 | MySQL · Redis · dbhub MCP |
-| 知识管理 | CodeGraph · AGENTS.md · CHANGELOG.md | · codex-swarm
 
 ---
 
@@ -87,25 +90,20 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 
 | 主题 | 涵盖内容 |
 |------|---------|
-| OpenCode 全配置 | ulw-loop · Ghostty+yazi · 上下文策略 · 插件生态 · 自动更新 · handoff |
-| CodeGraph 实践 | MCP 接入 · 10 工具 · 多分支 · Go 配置 · 框架路由 · 索引 |
-| 多模型路由 | CCX+DS+DashScope · 视觉路由 · 3 个坑 · 验证方法 |
-| Go 开发 | Air 热编译 · AGENTS.md · worktree · TDD · subagent |
-| RAG & 搜索 | SearchRAG · SearchApi 实践 |
-| DevOps 设计 | 三层架构 · SSO · CI 模板 · MCP Server · 通知 |
+| OpenCode 全配置 | /goal 模式 · Ghostty+yazi · 上下文策略 · 插件生态 |
+| CodeGraph 实践 | MCP 接入 · 10 工具 · 多分支 · Go 配置 |
+| Agent 编排 | codex-swarm · 第一性原理 · 对抗审查 · 防作弊 |
+| 多模型路由 | CCX+DS+DashScope · 视觉路由 |
+| Go 开发 | Air 热编译 · AGENTS.md · worktree · TDD |
+| DevOps 设计 | K8s 自动部署 · SSO · CI 模板 · MCP Server |
 
 ---
 
 ## 📊 项目总览
+
 - **6** 个公开仓库
 - 核心领域：Go · K8s DevOps · MCP 协议 · AI Agent 编排
 - 主力工作在私有仓库，公开仓库为技术分享和开源项目
-
-<p align="center">
-</p>
-
-<p align="center">
-</p>
 
 ---
 
