@@ -82,29 +82,18 @@ Go 后端开发，7+ 年。专注 **Agentic Engineering**——把 AI Agent 真�
 
 ---
 
-## 🧰 技术栈
+## 🧰 技术栈 & 📚 知识积累
 
-| 领域 | 技术 |
-|------|------|
-| 语言 | Go · Python · Shell |
-| 云原生 | Kubernetes · Docker · Kuboard |
-| CI/CD | GitLab CI · 自研 CLI |
-| AI & MCP | OpenCode · Codex · CodeGraph · lark-cli · CCX |
-| Agent 编排 | `/goal` 目标驱动 · codex-swarm 多智能体 |
-| 数据库 | MySQL · Redis · dbhub MCP |
-
----
-
-## 📚 知识积累
-
-| 主题 | 涵盖内容 |
-|------|---------|
-| OpenCode 全配置 | /goal 模式 · Ghostty+yazi · 上下文策略 · 插件生态 |
-| CodeGraph 实践 | MCP 接入 · 10 工具 · 多分支 · Go 配置 |
-| Agent 编排 | codex-swarm · 第一性原理 · 对抗审查 · 防作弊 |
-| 多模型路由 | CCX+DS+DashScope · 视觉路由 |
-| Go 开发 | Air 热编译 · AGENTS.md · worktree · TDD |
-| DevOps 设计 | K8s 自动部署 · SSO · CI 模板 · MCP Server |
+| 领域 | 技术栈 | 知识深度 |
+|------|--------|---------|
+| **语言** | Go · Python · Shell | — |
+| **云原生 / DevOps** | Kubernetes · Docker · Kuboard · GitLab CI | K8s 自动部署 · SSO · CI 模板 · MCP Server · 三层架构 |
+| **AI & MCP** | OpenCode · Codex · CodeGraph · lark-cli · CCX | MCP 2026-07-28 · Stateless Core · MRTR · /goal 目标驱动 |
+| **Agent 编排** | codex-swarm 多智能体 | 第一性原理 · 对抗式审查 · 防作弊护栏 |
+| **数据库** | MySQL · Redis · dbhub MCP | Git Hook DSN 自动同步 · 热重载 |
+| **Go 开发** | Air 热编译 · AGENTS.md · worktree · TDD | subagent · 会话健康检查 · 多轮上下文管理 |
+| **多模型** | CCX + DeepSeek + DashScope | 视觉路由 · 3 个配置错误 · 验证方法 |
+| **知识管理** | CodeGraph · AGENTS.md · CHANGELOG.md | 10 MCP 工具 · 多分支增量 · Go 路由识别 |
 
 ---
 
