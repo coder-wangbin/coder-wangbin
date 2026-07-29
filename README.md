@@ -96,13 +96,15 @@ ulw-loop 自验证循环 · Ghostty + yazi · 多轮上下文管理 · 插件生
 
 ---
 
-## 📊 动态
+## 📊 项目总览
+- **6** 个公开仓库
+- 核心领域：Go · K8s DevOps · MCP 协议 · AI Agent 编排
+- 主力工作在私有仓库，公开仓库为技术分享和开源项目
 
 <p align="center">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-wangbin&theme=github-light&hide_border=true&area=true" width="90%" />
 </p>
 
 ---
