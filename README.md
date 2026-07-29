@@ -85,7 +85,7 @@ Go 后端开发，7+ 年。专注 **Agentic Engineering**——把 AI Agent 真�
 ## 🧰 技术栈 & 📚 知识积累
 
 | 领域 | 技术栈 | 知识深度 |
-|------|--------|---------|
+|:---:|:-------|:--------|
 | **语言** | Go · Python · Shell | — |
 | **云原生 / DevOps** | Kubernetes · Docker · Kuboard · GitLab CI | K8s 自动部署 · SSO · CI 模板 · MCP Server · 三层架构 |
 | **AI & MCP** | OpenCode · Codex · CodeGraph · lark-cli · CCX | MCP 2026-07-28 · Stateless Core · MRTR · /goal 目标驱动 |
