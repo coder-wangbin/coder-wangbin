@@ -34,11 +34,16 @@ Go 后端开发，7+ 年。专注 **Agentic Engineering**——把 AI Agent 真�
 | **Bug 修复** | 改代码 5 分钟，走流程 4 小时 | Agent 监控 Bug 列表→自动修→部署 | 半天→自动闭环 |
 | **代码搜索** | grep + read 链，耗 token | CodeGraph 语义搜索 MCP | token↓ 调用↓ |
 
-### /goal 目标驱动开发
+### 🎯 /goal 目标驱动开发
 
+> oh-my-openagent v4.19 起，`/goal` 取代 ulw-loop，成为标准的 Agent 目标驱动模式。
 
-
-oh-my-openagent v4.19 起， 取代了 ulw-loop，成为标准的 Agent 目标驱动模式。支持  /  /  模型工具，持久化目标状态，持续 loop 直到审核通过。
+| 特性 | 说明 |
+|------|------|
+| 🎯 **/goal 命令** | 设定目标 → Agent 自动实现 → 自验证（编译/测试/诊断） → Goal 审核 → 不通过打回重做 → 通过交付 |
+| 🧠 **模型工具** | `create_goal` / `update_goal` / `get_goal` — Agent 可自主管理目标 |
+| 💾 **持久化状态** | 目标状态持久化到 `.omo/goal/`，会话恢复自动继续 |
+| 🔄 **持续 Loop** | Goal 审核（GPT-5.6 Sol）不通过就打回重做，循环直到审核批准 |
 
 ---
 
@@ -50,14 +55,18 @@ oh-my-openagent v4.19 起， 取代了 ulw-loop，成为标准的 Agent 目标�
 | **dbhub MCP + Git Hook** | post-checkout hook 检测分支切换 → 读 conf.yml → DSN 自动转换 → 热重载 |
 | **CodeGraph MCP** | 代码知识图谱，10 个 MCP 工具（context / search / trace / callers / impact 等），20+ 语言，多分支增量同步 |
 | **CCX 多模型路由** | CodeX + CCX 接入 DeepSeek + DashScope。双通道（文本 + 视觉），视觉路由 |
-| **OpenCode + Codex** |  目标驱动 · Ghostty + yazi · 多轮上下文 · 插件生态 |
+| **OpenCode + Codex** | `/goal` 目标驱动 · Ghostty + yazi · 多轮上下文 · 插件生态 |
 | **codex-swarm** | 三支柱并行智能体编排：第一性原理 × 对抗式审查 × 防作弊护栏 |
 
-### MCP 协议 & Agentic Engineering
+### 🔌 MCP 2026-07-28 · Agentic Engineering
 
-MCP 2026-07-28 正式版：stateless core、MRTR 多轮请求、MCP Apps/Tasks 扩展。250M+ 周下载量。Agent 通过标准 MCP 接口连接外部系统——数据库、搜索引擎、云 API、内部工具。
+| 概念 | 说明 |
+|------|------|
+| 🔌 **MCP 2026-07-28** | Stateless Core · MRTR 多轮请求 · MCP Apps/Tasks 扩展 · 250M+ 周下载 |
+| 🔗 **标准接口** | Agent 通过统一 MCP 连接数据库、搜索引擎、云 API、内部工具 |
+| 🏗️ **Agentic Engineering** | Vibe Coding 进化为系统化工程实践 |
 
-Vibe Coding 在 2026 年进化为 **Agentic Engineering**：同一套"描述意图 → Agent 构建"的本能，加上 Spec 先行、Review 把关、Test 验证的工程纪律。
+> **Spec 先行 → Review 把关 → Test 验证**：同一套"描述意图 → Agent 构建"的本能，加上完整的工程纪律。
 
 ---
 
@@ -81,7 +90,7 @@ Vibe Coding 在 2026 年进化为 **Agentic Engineering**：同一套"描述意�
 | 云原生 | Kubernetes · Docker · Kuboard |
 | CI/CD | GitLab CI · 自研 CLI |
 | AI & MCP | OpenCode · Codex · CodeGraph · lark-cli · CCX |
-| Agent 编排 |  目标驱动 · codex-swarm 多智能体 |
+| Agent 编排 | `/goal` 目标驱动 · codex-swarm 多智能体 |
 | 数据库 | MySQL · Redis · dbhub MCP |
 
 ---
